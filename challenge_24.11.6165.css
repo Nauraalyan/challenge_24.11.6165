@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: #fff;
+}
+
+.hero {
+  background-color: #5bb1cd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  min-height: 250px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.www-label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.toolbar {
+  background: rgba(255,255,255,0.3);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid white;
+}
+
+.img-devices {
+  max-width: 350px;
+  height: auto;
+}
+
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-title-container h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-align: right;
+  line-height: 1;
+}
+
+.web-text {
+  color: #f39c12;
+}
+
+.navbar {
+  background-color: #999;
+  padding: 5px 5%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+
+.main-container {
+  display: flex;
+  min-height: 400px;
+}
+
+.biodata-sidebar {
+  flex: 1;
+  background-color: #a5dadd;
+  padding: 30px;
+}
+
+.pengalaman-content {
+  flex: 2;
+  background-color: white;
+  padding: 30px;
+}
+
+h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.bio-text p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table th {
+  background-color: #a5dadd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.footer {
+  background-color: #999;
+  color: #333;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
